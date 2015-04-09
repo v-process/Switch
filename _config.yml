@@ -5,11 +5,11 @@ gems:
   - jemoji
   
 # Site settings
-title: "v-process"
+title: "Switch blog"
 description: > # this means to ignore newlines until "email:"
-  seungchul blog
+  ONOFF ZONE
 
-email: a-mail@mail.mail
+email: ksc3168@naver.com
 #blog logo
 logo: "/assets/images/df_logo.jpg"
 # blog cover
