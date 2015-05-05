@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE\app\libs\Parse-1.3.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0134925989cd90163c416e94383b1b8ee88d02e2">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE\app\build\intermediates\pre-dexed\debug\Parse-1.3.0-06c6328cad7f3aacfee3ad1fb899365a38d466b6.jar" />
+    </item>
+
+</items>
