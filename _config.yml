@@ -11,18 +11,18 @@ description: > # this means to ignore newlines until "email:"
 
 email: ksc3168@naver.com
 #blog logo
-logo: "/SwitchBlog/assets/images/df_logo.jpg"
+logo: "/Switch/assets/images/df_logo.jpg"
 # blog cover
-cover: "/SwitchBlog/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+cover: "/Switch/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
 
 name: 'Dirk Fabisch'
 author: 'Dirk Fabisch'
-author_image: "/SwitchBlog/assets/images/author.jpg"
+author_image: "/Switch/assets/images/author.jpg"
 
 paginate:	5
 
-url: "http://v-process.github.io/SwitchBlog" # the base hostname & protocol for your site
-baseurl: "/SwitchBlog/"
+url: "http://v-process.github.io/Switch" # the base hostname & protocol for your site
+baseurl: "/Switch/"
 
 # social icons and sharing options
 social:
