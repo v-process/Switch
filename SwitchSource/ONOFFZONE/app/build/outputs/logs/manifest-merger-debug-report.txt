@@ -63,3 +63,7 @@ activity#com.androidbegin.onoffzone.SignupActivity
 ADDED from AndroidManifest.xml:30:9
 	android:name
 		ADDED from AndroidManifest.xml:30:19
+activity#com.androidbegin.onoffzone.SelectActivity
+ADDED from AndroidManifest.xml:34:9
+	android:name
+		ADDED from AndroidManifest.xml:34:19

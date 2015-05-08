@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
 		if (ParseAnonymousUtils.isLinked(ParseUser.getCurrentUser())) {
 			// 익명인 경우 로그인 엑티비티로
 			Intent intent = new Intent(MainActivity.this,
-					LoginActivity.class);
+					SelectActivity.class);
 			startActivity(intent);
 			finish();
 		} else {
@@ -31,7 +31,7 @@ public class MainActivity extends Activity {
 			} else {
 				// 로그인엑티비티로.
 				Intent intent = new Intent(MainActivity.this,
-						LoginActivity.class);
+						SelectActivity.class);
 				startActivity(intent);
 				finish();
 			}

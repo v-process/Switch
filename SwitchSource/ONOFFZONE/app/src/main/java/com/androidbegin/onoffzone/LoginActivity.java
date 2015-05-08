@@ -25,13 +25,12 @@ public class LoginActivity extends Activity {
 
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.loginsignup);
+		setContentView(R.layout.login_activity);
 
 		username = (EditText) findViewById(R.id.username);
 		password = (EditText) findViewById(R.id.password);
 
 		loginbutton = (Button) findViewById(R.id.login);
-		signup = (Button) findViewById(R.id.signup);
 
 		loginbutton.setOnClickListener(new OnClickListener() {
 			public void onClick(View arg0) {
@@ -63,16 +62,5 @@ public class LoginActivity extends Activity {
 						});
 			}
 		});
-		// 회원가입 버튼을 누를경우
-		signup.setOnClickListener(new OnClickListener() {
-
-			public void onClick(View arg0) {
-                Intent intent1 = new Intent(
-                        LoginActivity.this,
-                        SignupActivity.class);
-                startActivity(intent1);
-			}
-		});
-
 	}
 }
