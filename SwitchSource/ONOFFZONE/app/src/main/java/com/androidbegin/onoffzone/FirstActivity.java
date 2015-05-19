@@ -1,34 +1,42 @@
 package com.androidbegin.onoffzone;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.media.AudioManager;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
-
-import com.parse.ParseUser;
+import android.widget.Toast;
 
 public class FirstActivity extends Activity {
 
 	Button logout;
+    Button wifi_func;
+    AudioManager aManager;
+    private ConnectivityManager connectivityManager;
 
+
+    int wifi_flag = 0;
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.first_activity);
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.first_activity);
 
-		TextView txtuser = (TextView) findViewById(R.id.txtuser);
+        TextView txtuser = (TextView) findViewById(R.id.txtuser);
 
-		logout = (Button) findViewById(R.id.logout);
+        logout = (Button) findViewById(R.id.logout);
 
-		// 로그아웃 버튼 클릭시
-		logout.setOnClickListener(new OnClickListener() {
+    }
 
-			public void onClick(View arg0) {
-				ParseUser.logOut();
-				finish();
-			}
-		});
-	}
+public void functiontrans(View v){
+
+    Toast.makeText(getApplicationContext(), "김승철.", Toast.LENGTH_LONG).show();
+
+    Intent intent = new Intent(
+            FirstActivity.this,
+            FunctionActivity.class);
+    startActivity(intent);
+}
 }

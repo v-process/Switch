@@ -27,20 +27,18 @@ public class SelectActivity extends Activity{
         Button login_btn = (Button) findViewById(R.id.select_login);
         Button guest_btn = (Button) findViewById(R.id.select_guest);
         Button signup_btn = (Button) findViewById(R.id.select_signup);
-
-
     }
 
     public void clickLogin(View view){
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
-
     }
     public void clickSignup(View view){
         Intent intent2 = new Intent(this, SignupActivity.class);
         startActivity(intent2);
 
     }
+
     public void clickGuest(View view){
 
         ParseAnonymousUtils.logIn(new LogInCallback() {//익명 로그인시 데이터 보존이 안돼

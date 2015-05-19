@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="기능엑티비티"/>
+
+
+    <Button
+        android:id="@+id/bell_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="김승철"
+        android:onClick="belltrans"/>
+
+
+    <Button
+        android:id="@+id/wifi_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/background_dark"
+        android:checked="false"
+        android:text="Wi-Fi onoff"
+        android:textColor="@android:color/white"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:onClick="wifitrans"/>
+
+
+
+</LinearLayout>
