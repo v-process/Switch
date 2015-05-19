@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Administrator/Desktop/ONOFFZONE/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/WFUser/Documents/GitHub/Switch/SwitchSource/ONOFFZONE/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="LoginBtn">Login</string>
     <string name="LogoutBtn">Log Out</string>

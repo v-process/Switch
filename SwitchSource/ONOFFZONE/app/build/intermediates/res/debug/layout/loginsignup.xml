@@ -59,4 +59,4 @@
         android:text="회원가입"
         android:onClick="signup_btn"/>
 
-</RelativeLayout><!-- From: file:/C:/Users/Administrator/Desktop/ONOFFZONE/app/src/main/res/layout/loginsignup.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/WFUser/Documents/GitHub/Switch/SwitchSource/ONOFFZONE/app/src/main/res/layout/loginsignup.xml -->
