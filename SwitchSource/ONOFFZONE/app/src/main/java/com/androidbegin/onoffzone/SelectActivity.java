@@ -27,6 +27,7 @@ public class SelectActivity extends Activity{
         Button login_btn = (Button) findViewById(R.id.select_login);
         Button guest_btn = (Button) findViewById(R.id.select_guest);
         Button signup_btn = (Button) findViewById(R.id.select_signup);
+        Button map_btn = (Button) findViewById(R.id.select_map);
     }
 
     public void clickLogin(View view){
@@ -36,6 +37,11 @@ public class SelectActivity extends Activity{
     public void clickSignup(View view){
         Intent intent2 = new Intent(this, SignupActivity.class);
         startActivity(intent2);
+
+    }
+    public void clickMap(View view){
+        Intent intent3 = new Intent(this, MapActivity.class);
+        startActivity(intent3);
 
     }
 

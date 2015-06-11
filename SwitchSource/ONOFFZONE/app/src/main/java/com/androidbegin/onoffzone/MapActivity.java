@@ -1,15 +1,14 @@
 package com.androidbegin.onoffzone;
 
-        import android.os.Bundle;
-        import android.support.v7.app.ActionBarActivity;
-        import android.view.Menu;
-        import android.view.MenuItem;
-        import com.google.android.gms.maps.CameraUpdateFactory;
-        import com.google.android.gms.maps.GoogleMap;
-        import com.google.android.gms.maps.MapFragment;
-        import com.google.android.gms.maps.model.LatLng;
-        import com.google.android.gms.maps.model.Marker;
-        import com.google.android.gms.maps.model.MarkerOptions;
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.view.Menu;
+import android.view.MenuItem;
+
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.model.LatLng;
 
 public class MapActivity extends ActionBarActivity {
 
@@ -22,18 +21,18 @@ public class MapActivity extends ActionBarActivity {
 
         setContentView(R.layout.activity_map);
         map = ((MapFragment) getFragmentManager().findFragmentById(R.id.map)).getMap();
-        //Marker seoul = map.addMarker(new MarkerOptions().position(SEOUL.title("Seoul"));타이틀 부분에 오류
+        //Marker seoul = map.addMarker(new MarkerOptions().position(SEOUL.title("Seoul"));
 
         map.moveCamera(CameraUpdateFactory.newLatLngZoom( SEOUL, 15));
 
-        map.animateCamera(CameraUpdateFactory.zoomTo(10), 2000, null);
+        map.animateCamera(CameraUpdateFactory.zoomTo(15), 2000, null);
 
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_map, menu);
+        getMenuInflater().inflate(R.menu.menu, menu);
         return true;
     }
 

@@ -39,6 +39,13 @@
         android:text="게스트로그인"
         android:onClick="clickGuest"
         />
+    <Button
+        android:id="@+id/select_map"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_guest"
+        android:text="지도"
+        android:onClick="clickMap"
+        />
 
-
-</RelativeLayout><!-- From: file:/C:/Users/WFUser/Documents/GitHub/Switch/SwitchSource/ONOFFZONE/app/src/main/res/layout/select_activity.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/WFUser/Desktop/SW/Switch/SwitchSource/ONOFFZONE/app/src/main/res/layout/select_activity.xml -->
