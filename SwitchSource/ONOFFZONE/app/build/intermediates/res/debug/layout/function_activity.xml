@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+   <ImageView
+       android:id="@+id/func_background1"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginRight="30dp"
+       android:layout_marginBottom="350dp"
+       android:background="@android:color/white"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="기능선택"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignTop="@+id/func_background1"
+        android:layout_alignLeft="@+id/func_background1"
+        android:layout_alignStart="@+id/func_background1"
+        android:id="@+id/textView" />
 
     <TextView
         android:id="@+id/txtuser"
@@ -16,23 +39,89 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="김승철"
-        android:onClick="belltrans"/>
+        android:layout_centerHorizontal="true"
+        android:onClick="belltrans"
+        android:layout_alignTop="@+id/wifi_btn"
+        android:layout_alignLeft="@+id/txtuser"
+        android:layout_alignStart="@+id/txtuser" />
 
 
     <Button
         android:id="@+id/wifi_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="10dp"
         android:background="@android:color/background_dark"
         android:checked="false"
         android:text="Wi-Fi onoff"
         android:textColor="@android:color/white"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
         android:textOff="OFF"
         android:textOn="ON"
-        android:onClick="wifitrans"/>
+        android:onClick="wifitrans"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
 
+   <Button
+       android:id="@+id/map_btn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@android:color/white"
+       android:text="지도선택"
+       android:textColor="@android:color/black"
+       android:layout_below="@+id/wifi_btn"
+       android:layout_alignLeft="@+id/func_background1"
+       android:layout_alignStart="@+id/func_background1"
+       android:layout_marginTop="60dp"
+       android:layout_alignRight="@+id/func_background1"
+       android:layout_alignEnd="@+id/func_background1"
+       android:onClick="mapFunc"/>
 
+    <ImageView
+        android:id="@+id/func_background3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:layout_below="@+id/map_btn"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="80dp"
+        />
+    <ToggleButton
+        android:id="@+id/toggleButton01"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/buttonoff"
+        android:textOff="꺼짐"
+        android:textOn="켜짐"
+        android:layout_alignTop="@+id/bell_btn"
+        android:layout_alignLeft="@+id/wifi_btn"
+        android:layout_alignStart="@+id/wifi_btn"
+        android:layout_alignRight="@+id/wifi_btn"
+        android:layout_alignEnd="@+id/wifi_btn" />
 
-</LinearLayout><!-- From: file:/C:/Users/WFUser/Desktop/SW/Switch/SwitchSource/ONOFFZONE/app/src/main/res/layout/function_activity.xml -->
+    <ToggleButton
+        android:id="@+id/toggleButton02"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/buttonoff"
+        android:textOff="꺼짐"
+        android:textOn="켜짐"
+        android:layout_alignTop="@+id/bell_btn"
+        android:layout_alignLeft="@+id/bell_btn"
+        android:layout_alignStart="@+id/bell_btn" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton03"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/buttonoff"
+        android:textOff="꺼짐"
+        android:textOn="켜짐"
+        android:layout_alignTop="@+id/toggleButton02"
+        android:layout_alignRight="@+id/func_background1"
+        android:layout_alignEnd="@+id/func_background1" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Administrator/Desktop/ONOFFZONE/app/src/main/res/layout/function_activity.xml -->

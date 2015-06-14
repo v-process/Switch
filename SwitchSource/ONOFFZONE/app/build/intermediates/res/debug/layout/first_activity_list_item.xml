@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/listItemBackground"
+        android:layout_width="700px"
+        android:layout_height="200px"
+        android:scaleType="centerCrop"
+        android:src="@android:drawable/title_bar"/>
+    <ImageView
+        android:id="@+id/listItemKindIv"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:src="@android:drawable/btn_star"
+        android:layout_alignLeft="@+id/listItemBackground"/>
+    <TextView
+        android:id="@+id/listItemKindTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="위치"
+        android:textColor="#000000"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/listItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="My House"
+        android:textSize="45dp"
+        android:layout_below="@+id/listItemKindTv"
+        />
+
+</RelativeLayout><!-- From: file:/C:/Users/Administrator/Desktop/ONOFFZONE/app/src/main/res/layout/first_activity_list_item.xml -->

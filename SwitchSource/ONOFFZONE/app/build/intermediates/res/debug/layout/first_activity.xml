@@ -12,7 +12,12 @@
         android:paddingTop="50dp"
         android:textSize="25sp" />
 
-
+    <ListView
+        android:id="@+id/itemListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:longClickable="true"
+        ></ListView>
     <Button
         android:id="@+id/logout"
         android:layout_width="wrap_content"
@@ -21,6 +26,14 @@
         android:text="승철"
         android:onClick="functiontrans"/>
 
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="+"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:onClick="addItem"/>
 
 
-</RelativeLayout><!-- From: file:/C:/Users/WFUser/Desktop/SW/Switch/SwitchSource/ONOFFZONE/app/src/main/res/layout/first_activity.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/Administrator/Desktop/ONOFFZONE/app/src/main/res/layout/first_activity.xml -->

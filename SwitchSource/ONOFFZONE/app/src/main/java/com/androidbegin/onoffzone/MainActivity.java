@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
 			ParseUser currentUser = ParseUser.getCurrentUser();
 			if (currentUser != null) {
 				// 기존 로그인이 되어있다면 FirstActivity로.
-				Intent intent = new Intent(MainActivity.this, FirstActivity.class);
+				Intent intent = new Intent(MainActivity.this, SelectActivity.class);
 				startActivity(intent);
 				finish();
 			} else {
