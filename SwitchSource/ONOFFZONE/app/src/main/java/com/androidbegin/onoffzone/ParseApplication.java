@@ -13,7 +13,7 @@ public class ParseApplication extends Application {
         super.onCreate();
        // Parse.enableLocalDatastore(this);
         Parse.initialize(this, "ntOZOUf2S4MVuGQ4D7SHdJ4qxlCJa7Em8sp00hOn", "DcFDqWrpJlRPUjCVZmRaMLDw5oHQPQUprqhCN4oy");
- 
+
         ParseUser.enableAutomaticUser();
         ParseACL defaultACL = new ParseACL();
         defaultACL.setPublicReadAccess(true);

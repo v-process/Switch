@@ -22,9 +22,7 @@ public class MapActivity extends ActionBarActivity {
         setContentView(R.layout.activity_map);
         map = ((MapFragment) getFragmentManager().findFragmentById(R.id.map)).getMap();
         //Marker seoul = map.addMarker(new MarkerOptions().position(SEOUL.title("Seoul"));
-
         map.moveCamera(CameraUpdateFactory.newLatLngZoom( SEOUL, 15));
-
         map.animateCamera(CameraUpdateFactory.zoomTo(15), 2000, null);
 
     }
