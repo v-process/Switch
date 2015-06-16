@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-76d4efca322ceebfd62dfe458aaa113832a694eb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-7890cf23aab5ff89312c42c590c4f5eb376dbf54.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-24152c264516cc8ec88cc49eb727e38fc75fbff5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-66e58d6b396ec7d704339e2b4faaa52b22479bfd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-4668b470d9d354e43cead05431428ff0f71dc352.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-e554ad5bca8d64767c4197cb44efb8b613e826fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-f16bf9e96e62e988ab048e81730f60322d80eb9b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-b5d1cb3ed6d3981cfb6db17cf57cb97772a476e1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-201a08b7e9eaad0c8357f9a7a872f3d449a9b447.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-73639a67dcb982363786554ba27473813222dd4f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-6db3f5d67052ddf396245438cf1730f9b3c69b05.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-62f443bd511c8def9f54a7e4320e8b2d110a5c37.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-c18b58f8fc0a63fe047e6e9592c6ff1c07179e0a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-e95723ec95b3cab24854cf199deb202e8996b4f5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-12b40a3677416935b47faa8753ebea3be77b8323.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-6349a17427289cb6b0bded846af719c7f7194d09.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-690c6a047dd3c128fd3d09037615861fea2e8c09.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-74207f69e7b73c2944df50e8de66df1147447e75.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-503ea9038f46b6bb2c04453d3745f026b8ab13a9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-05b8aed7ba22ea59941da83cb6541ff971c66040.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\libs\Parse-1.3.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0134925989cd90163c416e94383b1b8ee88d02e2">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\Parse-1.3.0-6ec0d836c1cb48c01e07cca9084e60233dca2023.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-b5326492028da0fcf0466a8d86f4d30709ecd8c3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-2f36f149bcbb45882b0ab29018f63bf4fbdeaffc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-5b11c789f50772b90e42e30734a5ec14117cb58c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-c828d9c4ec7d93f8cbd2d56c3b8d151ae96fe501.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-25519d5752db4e8b1fd532a4608dc29764405d37.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\Administrator\Desktop\ONOFFZONE0616\app\build\intermediates\pre-dexed\debug\classes-602f4851d9fe24f2843d5e3e50860c015cba0d76.jar" />
+    </item>
+
+</items>
