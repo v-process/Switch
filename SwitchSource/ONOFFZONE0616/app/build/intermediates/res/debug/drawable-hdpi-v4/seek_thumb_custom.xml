@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  Press the State  -->
+    <item
+        android:state_focused="true"
+        android:state_pressed="true"
+        android:drawable="@drawable/circle_thumb"
+        />
+    <!--  Ordinary focus state   -->
+    <item
+        android:state_focused="false"
+        android:state_pressed="false"
+        android:drawable="@drawable/circle_thumb" />
+    <!--  The State has the focus  -->
+    <item
+        android:state_focused="true"
+        android:state_pressed="false"
+        android:drawable="@drawable/circle_thumb" />
+    <!--  Has focus   -->
+    <item
+        android:state_focused="true"
+        android:drawable="@drawable/circle_thumb" />
+    <item
+        android:state_focused="false"
+        android:state_pressed="true"
+        android:drawable="@drawable/circle_thumb" />
+
+</selector>
+<!-- From: file:/C:/Users/Administrator/Desktop/ONOFFZONE0616/app/src/main/res/drawable-hdpi/seek_thumb_custom.xml -->

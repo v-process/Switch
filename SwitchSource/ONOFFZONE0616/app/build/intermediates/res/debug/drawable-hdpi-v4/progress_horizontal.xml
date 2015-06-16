@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="10dip" />
+            <solid android:color="#c1c1c1"></solid>
+            <size android:height="5dp" android:width="150dp"/>
+            <stroke android:width="1dp" android:color="#716f6e" />
+        </shape>
+    </item>
+
+
+
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="10dip" />
+                <solid android:color="#ffffff"></solid>
+                <size android:height="10dp" android:width="150dp"/>
+                <stroke android:width="1dp" android:color="#716f6e" />
+            </shape>
+        </clip>
+    </item>
+
+
+
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="10dip" />
+                <solid android:color="#ffffff"></solid>
+                <size android:height="10dp" android:width="150dp"/>
+                <stroke android:width="1dp" android:color="#716f6e" />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>
+<!-- From: file:/C:/Users/Administrator/Desktop/ONOFFZONE0616/app/src/main/res/drawable-hdpi/progress_horizontal.xml -->

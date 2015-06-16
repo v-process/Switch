@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/imagescroll"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:background="#222222">
+
+        <!-- 알람 이름 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/xml_border"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center">
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="알람이름"
+                android:textSize="15sp"
+                android:textColor="#ffffff"/>
+            <EditText
+                android:id="@+id/alarmName"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:singleLine="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="이름을 입력하세요"
+                android:textSize="13sp"/>
+            </LinearLayout>
+
+        <!--기능 선택-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/xml_border"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="기능선택"
+                android:textSize="15sp"
+                android:textColor="#ffffff"/>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:background="#cecccc" />
+                    <!-- 여기다가 토글버튼 3개 넣기 -->
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center">
+
+                        <ToggleButton
+                            android:layout_margin="5dp"
+                            android:id="@+id/toggleButton01"
+                            android:layout_width="45dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/off_wifi"
+                            android:textOff=""
+                            android:textOn=""
+                            android:layout_alignTop="@+id/bell_btn"
+                            android:layout_alignLeft="@+id/wifi_btn"
+                            android:layout_alignStart="@+id/wifi_btn"
+                            android:layout_alignRight="@+id/wifi_btn"
+                            android:layout_alignEnd="@+id/wifi_btn" />
+
+                        <ToggleButton
+                            android:layout_margin="5dp"
+                            android:id="@+id/toggleButton02"
+                            android:layout_width="45dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/off_manner"
+                            android:textOff=""
+                            android:textOn=""
+                            android:layout_alignTop="@+id/bell_btn"
+                            android:layout_alignLeft="@+id/bell_btn"
+                            android:layout_alignStart="@+id/bell_btn" />
+
+                        <ToggleButton
+                            android:layout_margin="5dp"
+                            android:id="@+id/toggleButton03"
+                            android:layout_width="45dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/off_push"
+                            android:textOff=""
+                            android:textOn=""
+                            android:layout_alignTop="@+id/toggleButton02"
+                            android:layout_alignRight="@+id/func_background1"
+                            android:layout_alignEnd="@+id/func_background1" />
+                    </LinearLayout>
+        </LinearLayout>
+
+        <!--장소 설정-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/xml_border"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:onClick="mapMove"
+            >
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="장소설정"
+                android:textSize="15sp"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+
+        <!--알람 타입-->
+        <LinearLayout
+            android:id="@+id/alarmType"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/xml_border"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="알람타입"
+                android:textSize="15sp"
+                android:textColor="#ffffff"/>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:background="#cecccc" />
+            <!-- 여기다가 토글버튼 3개 넣기 & 볼륨 프로그레스바 넣기. -->
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+                <ToggleButton
+                    android:layout_margin="5dp"
+                    android:id="@+id/toggleButton04"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/off_sound"
+                    android:textOff=""
+                    android:textOn=""
+                    android:layout_alignTop="@+id/bell_btn"
+                    android:layout_alignLeft="@+id/wifi_btn"
+                    android:layout_alignStart="@+id/wifi_btn"
+                    android:layout_alignRight="@+id/wifi_btn"
+                    android:layout_alignEnd="@+id/wifi_btn" />
+                <ToggleButton
+                    android:layout_margin="5dp"
+                    android:id="@+id/toggleButton05"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/off_vib"
+                    android:textOff=""
+                    android:textOn=""
+                    android:layout_alignTop="@+id/bell_btn"
+                    android:layout_alignLeft="@+id/wifi_btn"
+                    android:layout_alignStart="@+id/wifi_btn"
+                    android:layout_alignRight="@+id/wifi_btn"
+                    android:layout_alignEnd="@+id/wifi_btn" />
+                <ToggleButton
+                    android:layout_margin="5dp"
+                    android:id="@+id/toggleButton06"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/off_etc"
+                    android:textOff=""
+                    android:textOn=""
+                    android:layout_alignTop="@+id/bell_btn"
+                    android:layout_alignLeft="@+id/wifi_btn"
+                    android:layout_alignStart="@+id/wifi_btn"
+                    android:layout_alignRight="@+id/wifi_btn"
+                    android:layout_alignEnd="@+id/wifi_btn" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="볼륨"
+                    android:textSize="15sp"
+                    android:textColor="#ffffff"/>
+                <SeekBar
+                    android:progressDrawable="@drawable/progress_horizontal"
+                    android:thumb="@drawable/seek_thumb_custom"
+                    android:id="@+id/volumeSeekBar"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:max="15"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--알람 메모-->
+        <LinearLayout
+            android:id="@+id/alarmMemo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/xml_border"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center">
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="알람메모"
+                android:textSize="15sp"
+                android:textColor="#ffffff"/>
+            <EditText
+                android:id="@+id/et_alarmMemo"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="메모를 입력하세요."
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="임시 완료 버튼"
+            android:onClick="saveBtn"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

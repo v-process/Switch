@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="10dip" >
+
+    <ImageView
+        android:id="@+id/title_image"
+        android:layout_width="150dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/icon"/>
+
+    <Button
+        android:id="@+id/select_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_image"
+        android:layout_marginTop="30dp"
+        android:text="로그인"
+        android:onClick="clickLogin"/>
+
+    <Button
+        android:id="@+id/select_signup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_login"
+        android:text="회원가입"
+        android:onClick="clickSignup"
+        />
+    <Button
+        android:id="@+id/select_guest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_signup"
+        android:text="게스트로그인"
+        android:onClick="clickGuest"
+        />
+    <Button
+        android:id="@+id/select_map"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_guest"
+        android:text="지도"
+        android:onClick="clickMap"
+        />
+
+</RelativeLayout>
