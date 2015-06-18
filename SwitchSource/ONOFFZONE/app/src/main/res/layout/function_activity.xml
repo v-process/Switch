@@ -3,15 +3,15 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/func_background1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginBottom="350dp"
-        android:background="@android:color/white"/>
+   <ImageView
+       android:id="@+id/func_background1"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginRight="30dp"
+       android:layout_marginBottom="350dp"
+       android:background="@android:color/white"/>
     <TextView
 
         android:layout_width="wrap_content"
@@ -63,20 +63,20 @@
         android:layout_alignLeft="@+id/textView"
         android:layout_alignStart="@+id/textView" />
 
-    <Button
-        android:id="@+id/map_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:color/white"
-        android:text="지도선택"
-        android:textColor="@android:color/black"
-        android:layout_below="@+id/wifi_btn"
-        android:layout_alignLeft="@+id/func_background1"
-        android:layout_alignStart="@+id/func_background1"
-        android:layout_marginTop="60dp"
-        android:layout_alignRight="@+id/func_background1"
-        android:layout_alignEnd="@+id/func_background1"
-        android:onClick="mapFunc"/>
+   <Button
+       android:id="@+id/map_btn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@android:color/white"
+       android:text="지도선택"
+       android:textColor="@android:color/black"
+       android:layout_below="@+id/wifi_btn"
+       android:layout_alignLeft="@+id/func_background1"
+       android:layout_alignStart="@+id/func_background1"
+       android:layout_marginTop="60dp"
+       android:layout_alignRight="@+id/func_background1"
+       android:layout_alignEnd="@+id/func_background1"
+       android:onClick="mapFunc"/>
 
     <ImageView
         android:id="@+id/func_background3"
@@ -123,10 +123,5 @@
         android:layout_alignTop="@+id/toggleButton02"
         android:layout_alignRight="@+id/func_background1"
         android:layout_alignEnd="@+id/func_background1" />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="완료"
-        android:onClick="saveBtn"/>
 
 </RelativeLayout>

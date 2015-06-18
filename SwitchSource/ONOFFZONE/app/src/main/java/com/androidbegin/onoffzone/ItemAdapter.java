@@ -49,8 +49,8 @@ public class ItemAdapter extends BaseAdapter {
         ImageView listItemKindIv = (ImageView)convertView.findViewById(R.id.listItemKindIv);
         listItemKindIv.setImageBitmap(ItemDataArr.get(position).kindImg);
 
-//        TextView listItemKindTv = (TextView)convertView.findViewById(R.id.listItemKindTv);
-//        listItemKindTv.setText(ItemDataArr.get(position).kindTxt);
+        TextView listItemKindTv = (TextView)convertView.findViewById(R.id.listItemKindTv);
+        listItemKindTv.setText(ItemDataArr.get(position).kindTxt);
 
         TextView listItemTitle = (TextView)convertView.findViewById(R.id.listItemTitle);
         listItemTitle.setText(ItemDataArr.get(position).title);

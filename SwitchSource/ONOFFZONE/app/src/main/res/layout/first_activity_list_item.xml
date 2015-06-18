@@ -6,8 +6,8 @@
 
     <ImageView
         android:id="@+id/listItemBackground"
-        android:layout_width="900px"
-        android:layout_height="300px"
+        android:layout_width="700px"
+        android:layout_height="200px"
         android:scaleType="centerCrop"
         android:src="@android:drawable/title_bar"/>
     <ImageView

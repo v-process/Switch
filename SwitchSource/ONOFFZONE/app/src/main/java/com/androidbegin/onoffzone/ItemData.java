@@ -7,9 +7,11 @@ import android.graphics.Bitmap;
  */
 public class ItemData {
     Bitmap kindImg;
+    String kindTxt;
     String title;
-    ItemData(Bitmap kindImg,String title){
+    ItemData(Bitmap kindImg,String kindTxt,String title){
         this.kindImg=kindImg;
+        this.kindTxt=kindTxt;
         this.title=title;
     }
 }
