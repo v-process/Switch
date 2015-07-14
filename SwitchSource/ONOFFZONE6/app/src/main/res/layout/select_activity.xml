@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#222222"
+    android:padding="10dip" >
+
+    <ImageView
+        android:id="@+id/title_image"
+        android:layout_width="150dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/icon"/>
+
+    <Button
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/xml_border"
+        android:textSize="17sp"
+        android:id="@+id/select_login"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/title_image"
+        android:textColor="@android:color/white"
+
+        android:text="로그인"
+        android:onClick="clickLogin"/>
+
+    <Button
+        android:textSize="17sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/select_signup"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/select_login"
+        android:textColor="@android:color/white"
+
+        android:background="@drawable/xml_border"
+        android:text="회원가입"
+        android:onClick="clickSignup"
+        />
+    <Button
+        android:textSize="17sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/select_guest"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textColor="@android:color/white"
+
+        android:layout_below="@+id/select_signup"
+        android:background="@drawable/xml_border"
+        android:text="게스트로그인"
+        android:onClick="clickGuest"
+        />
+
+</RelativeLayout>

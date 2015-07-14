@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222222"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/xml_border"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        >
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="추천받기"
+            android:textSize="15sp"
+            android:textColor="#ffffff"/>
+        <ToggleButton
+            android:id="@+id/recommend"
+            android:layout_width="59dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="150dp"
+            android:textOff=""
+            android:textOn=""
+            android:background="@drawable/toggle_off"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/xml_border"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:onClick="logoutFunc"
+        >
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="로그아웃"
+            android:textSize="15sp"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".ONOFFZONE">
+
+
+    <item
+        android:showAsAction="ifRoom|withText"
+        android:id="@+id/item1"
+        android:icon="@drawable/main_setting"
+
+        android:title="item1"
+        />
+</menu>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/listItemBackground"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="13dp"
+        android:paddingLeft="25dp"
+        android:src="@drawable/list_box"/>
+    <ImageView
+        android:id="@+id/listItemKindIv"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:src="@drawable/l7"
+        android:layout_alignLeft="@+id/listItemBackground"
+        android:layout_marginLeft="15dp"
+        android:paddingBottom="5dp"
+        />
+    <LinearLayout
+        android:layout_alignLeft="@+id/listItemBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="25dp"
+        >
+
+        <TextView
+            android:id="@+id/listItemKindTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="위치"
+            android:textColor="#ffffffff"
+            android:textSize="13dp"/>
+
+        <TextView
+            android:paddingLeft="30dp"
+            android:id="@+id/listItemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#283b99"
+            android:text="My House"
+            android:textSize="23dp"
+            />
+        </LinearLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/Administrator/Desktop/ONOFFZONE6/app/src/main/res/layout/first_activity_list_item.xml -->
